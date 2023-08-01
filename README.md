@@ -1,6 +1,6 @@
 # Predicting a number of taxi orders (time series ML)
 
-**Goal:** The customer wants to attract more drivers during peak periods.
+**Goal:** Our fictional customer wants to attract more drivers during peak periods.
 
 **Task:** build a model to predict the number of taxi orders for the next hour. As part of this work, we will use **linear regression**, as well as models based on gradient boosting - **Light GBM** and **CatBoost**. Of these, we will choose the best one based on prediction quality metrics and training time.
 
