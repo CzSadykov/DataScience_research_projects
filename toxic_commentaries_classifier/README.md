@@ -1,6 +1,6 @@
 # Classification of texts for an online store
 
-**Prerequisites:** Wikishop is launching a new service. Now users can edit and supplement product descriptions, just like in wiki communities. I.e. clients propose their edits and comment on the changes of others.
+**Problem situation:** Wikishop is launching a new service. Now users can edit and supplement product descriptions, just like in wiki communities. I.e. clients propose their edits and comment on the changes of others.
 
 **Goal:** creating a tool that will look for toxic comments and submit them for moderation.
 
