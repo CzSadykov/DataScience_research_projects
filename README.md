@@ -1,22 +1,29 @@
-# Predicting a number of taxi orders (time series ML)
+# Data Science research projects
 
-**Goal:** Our fictional customer wants to attract more drivers during peak periods.
+This repository stores some DS projects created during my studentship at Yandex Practicum (2022-2023). Ostensibly, they prove that I can bring some value to a DS/ML team. 
 
-**Task:** build a model to predict the number of taxi orders for the next hour. As part of this work, we will use **linear regression**, as well as models based on gradient boosting - **Light GBM** and **CatBoost**. Of these, we will choose the best one based on prediction quality metrics and training time.
+Here's a brief recap:
 
-**Data:** Historical data on taxi orders at airports. Features: number of orders (target feature), date/time.
+## Used car price prediction
+**Problem Situation**: A supposed car dealership is developing an app to attract new customers. In it you can quickly find out the market value of your car.
+**Task**: to build a model to determine the cost, the RMSE metric should be less than 2500 euros.
 
-**Initial requirements:**
+## Gold recovery prediction
+**Problem situation:** on the request for our customer we need to optimize production in order to successfully launch an industrial enterprise while avoiding losses.
+**Goal:** to prepare a prototype of a machine learning model. The model should predict the recovery rate of gold from an ore.
 
-* Period for resampling: 1 hour;
-* The test sample percentage: 10% of the original data;
-* The value of an *RMSE* metric on the test sample should not exceed 48.
-  
-## Results
+## Predicting an optimal oil well location
+**Problem situation:** On assignment for a fictitious mining company we help to decide where to drill a new oil well.
+**Goal:** to determine the most profitable region for the development of oil wells using Classic ML approach.
 
-**Best Model**
+## Predicting a number of taxi orders (time series ML)
+**Problem situation:** Our fictional customer wants to attract more drivers during peak periods.
+**Task:** build a model to predict the number of taxi orders for the next hour.
 
-A cost-efficient linear regression trained with cross-validation for 5-block time series in basically zero time.
-**Final RMSE:** 34.201. 
+## Classification of texts for an online store
 
-Training and testing was carried out on the basis of features extended by 168 time lags (where each lag is 1 hour of observations) and a moving average taken for 24-hour windows.
+**Problem situation:** a fictional online shop is launching a new service. Now users can edit and supplement product descriptions, just like in wiki communities. I.e. clients propose their edits and comment on the changes of others.
+**Task:** building a model for classifying positive and negative comments.
+
+
+
